@@ -10,7 +10,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #fce7f3;
+  background-color: #f0fdf4;
 }
 
 .glass {
@@ -18,7 +18,7 @@ body {
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
   border: 1px solid rgba(255, 255, 255, 0.7);
-  box-shadow: 0 10px 40px -10px rgba(255, 105, 180, 0.25);
+  box-shadow: 0 10px 40px -10px rgba(52, 211, 153, 0.25);
 }
 
 .mesh-bg {
@@ -28,7 +28,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(120deg, #ff9a9e 0%, #fecfef 20%, #a1c4fd 60%, #fbc2eb 100%);
+  background: linear-gradient(120deg, #86efac 0%, #a7f3d0 20%, #ccfbf1 60%, #99f6e4 100%);
   background-size: 300% 300%;
   animation: gradientBG 15s ease infinite;
   opacity: 0.65;
